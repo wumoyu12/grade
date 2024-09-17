@@ -1,0 +1,19 @@
+package Grade;
+
+import java.util.Scanner;
+
+public class GradingSystem {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter your first grade");
+		System.out.println("Enter your second grade");
+		System.out.println("Enter your third grade");
+		System.out.println("Enter your fourth grade");
+		System.out.println("Enter your  grade");
+		
+		Average = (1grade + 2grade + 3grade + 4grade +5grade);
+
+	}
+
+}
