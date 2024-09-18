@@ -6,6 +6,8 @@ public class GradingSystem {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
+		double 1grade, 2grade, 3grade, 4grade, 5grade, Average;
+
 		System.out.println("Enter your first grade");
 		System.out.println("Enter your second grade");
 		System.out.println("Enter your third grade");
@@ -13,6 +15,7 @@ public class GradingSystem {
 		System.out.println("Enter your  grade");
 		
 		Average = (1grade + 2grade + 3grade + 4grade +5grade);
+		Average = (Average/5)
 
 		System.out.println("Your average is " + Average);
 
