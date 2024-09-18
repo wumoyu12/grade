@@ -20,7 +20,7 @@ public class GradingSystem {
 		5grade = allinput.nextDouble();
 		
 		Average = (1grade + 2grade + 3grade + 4grade +5grade);
-		Average = (Average/5)
+		Average = (Average/5);
 
 		System.out.println("Your average is " + Average);
 
