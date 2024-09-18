@@ -16,7 +16,7 @@ public class GradingSystem {
 		3grade = allinput.nextDouble();
 		System.out.println("Enter your fourth grade");
 		4grade = allinput.nextDouble();
-		System.out.println("Enter your  grade");
+		System.out.println("Enter your fifth grade");
 		5grade = allinput.nextDouble();
 		
 		Average = (1grade + 2grade + 3grade + 4grade +5grade);
