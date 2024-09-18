@@ -14,6 +14,8 @@ public class GradingSystem {
 		
 		Average = (1grade + 2grade + 3grade + 4grade +5grade);
 
+		System.out.println("Your average is " + Average);
+
 	}
 
 }
