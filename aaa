@@ -9,10 +9,15 @@ public class GradingSystem {
 		double 1grade, 2grade, 3grade, 4grade, 5grade, Average;
 
 		System.out.println("Enter your first grade");
+		1grade = allinput.nextDouble();
 		System.out.println("Enter your second grade");
+		2grade = allinput.nextDouble();
 		System.out.println("Enter your third grade");
+		3grade = allinput.nextDouble();
 		System.out.println("Enter your fourth grade");
+		4grade = allinput.nextDouble();
 		System.out.println("Enter your  grade");
+		5grade = allinput.nextDouble();
 		
 		Average = (1grade + 2grade + 3grade + 4grade +5grade);
 		Average = (Average/5)
